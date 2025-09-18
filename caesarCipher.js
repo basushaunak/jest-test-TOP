@@ -38,3 +38,5 @@ function caesarCipher(inputString, shiftBy) {
     return String.fromCharCode(code);
   }
 }
+
+module.exports = caesarCipher;
